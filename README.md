@@ -1,14 +1,13 @@
-# Project Name
+# Discord RPC
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Project Description
+A quick experiment with the Discord Rich Presence Client
 
 ## Live Version
 
-This page is not yet deployed.
-<!--This page is currently deployed. [View the live website.]()-->
+You can view this by looking at my presence on Discord!
 
 ## Feedback and Bugs
 
