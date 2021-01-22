@@ -9,6 +9,9 @@ A quick experiment with the Discord Rich Presence Client
 
 You can view this by looking at my presence on Discord!
 
+## Creating Your Own
+
+To see how to set up your own RPC, view our [usage instructions](./USAGE.MD).
 ## Feedback and Bugs
 
 If you have feedback or a bug report, please feel free to open a GitHub issue!
