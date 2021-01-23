@@ -10,7 +10,11 @@ client.on("ready", () => {
         large_image: "main",
         large_text: "It's Becca!",
       },
-      details: "Check out what I'm doing!",
+      details: "Come hang out?",
+      timestamps: {
+        start: Date.now(),
+      },
+      state: "I'm here!",
       buttons: [
         { label: "Website", url: "https://www.nhcarrigan.com" },
         {
