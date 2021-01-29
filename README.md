@@ -57,3 +57,7 @@ The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 ## Contact
 
 We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
+
+## Special Credit
+
+Many thanks to [advaith](https://github.com/advaith1) for providing the [sample code](https://discord.com/channels/613425648685547541/613425918748131338/795263592052162560) used to make this work.
