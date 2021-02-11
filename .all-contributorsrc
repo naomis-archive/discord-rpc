@@ -13,10 +13,19 @@
       "contributions": [
         "projectManagement"
       ]
+    },
+    {
+      "login": "96RadhikaJadhav",
+      "name": "Radhika",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56536997?v=4",
+      "profile": "https://github.com/96RadhikaJadhav",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "new-repo-template",
+  "projectName": "discord-rpc",
   "projectOwner": "nhcarrigan",
   "repoType": "github",
   "repoHost": "https://github.com",
