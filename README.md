@@ -11,7 +11,7 @@ You can view this by looking at my presence on Discord!
 
 ## Creating Your Own
 
-To see how to set up your own RPC, view our [usage instructions](https://github.com/nhcarrigan/discord-rpc#creating-your-own).
+To see how to set up your own RPC, view our [usage instructions](./USAGE.md).
 
 ## Feedback and Bugs
 
