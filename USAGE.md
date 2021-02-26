@@ -10,14 +10,14 @@ Log in to the [Discord Developer Portal](https://discord.com/developers/) and se
 
 > NOTE: Your application name will appear in the Rich Presence.
 
-Copy the `Client ID` for the application and pass that in to the `client.login` call on line 27 of `index.js` - replacing my `"716707753090875473"` ID with yours.
+Copy the `Client ID` for the application and pass that in to the `client.login` call on line 31 of `index.js` - replacing my `"716707753090875473"` ID with yours.
 
 ## Modifying your Presence
 
 You can tweak what your RPC says/does by changing these values in `index.js`.
 
 - `details` (line 13): This is the text that appears in your presence.
-- `buttons` (line 14): You can have *two* buttons. The `label` is the text that appears on the RPC, and the `url` is the link that opens when someone clicks your button.
+- `buttons` (line 18): You can have *two* buttons. The `label` is the text that appears on the RPC, and the `url` is the link that opens when someone clicks your button.
 - `assets` (line 9): The `large_image` is the **name** or **key** of the asset you upload to your application (see below), and the `large_text` is the text that appears when someone hovers over the image.
 
 > NOTE: You cannot click on your own buttons, so do not be alarmed if they appear non-functioning.
