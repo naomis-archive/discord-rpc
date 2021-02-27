@@ -6,19 +6,19 @@ You will also need to have `node.js` and `npm` installed and available on your m
 
 ## Creating your Application
 
-Log in to the [Discord Developer Portal](https://discord.com/developers/) and select `Applications` in the side-bar. If you have an existing application (such as a bot), you may use that - otherwise, create an application. 
+Log in to the [Discord Developer Portal](https://discord.com/developers/) and select `Applications` in the side-bar. If you have an existing application (such as a bot), you may use that - otherwise, create an application.
 
 > NOTE: Your application name will appear in the Rich Presence.
 
-Copy the `Client ID` for the application and pass that in to the `client.login` call on line 31 of `index.js` - replacing my `"716707753090875473"` ID with yours.
+Copy the `Client ID` for the application and pass that in to the `client.login` call on line 25 of `src/index.ts` - replacing my `"716707753090875473"` ID with yours.
 
 ## Modifying your Presence
 
-You can tweak what your RPC says/does by changing these values in `index.js`.
+You can tweak what your RPC says/does by changing these values in `src/index.ts`.
 
-- `details` (line 13): This is the text that appears in your presence.
-- `buttons` (line 18): You can have *two* buttons. The `label` is the text that appears on the RPC, and the `url` is the link that opens when someone clicks your button.
-- `assets` (line 9): The `large_image` is the **name** or **key** of the asset you upload to your application (see below), and the `large_text` is the text that appears when someone hovers over the image.
+- `details` (line 9): This is the text that appears in your presence.
+- `buttons` (line 12): You can have _two_ buttons. The `label` is the text that appears on the RPC, and the `url` is the link that opens when someone clicks your button.
+- image (line 7 + 8): The `largeImageKey` is the **name** or **key** of the asset you upload to your application (see below), and the `largeImageText` is the text that appears when someone hovers over the image.
 
 > NOTE: You cannot click on your own buttons, so do not be alarmed if they appear non-functioning.
 
@@ -32,7 +32,7 @@ Click the `Add Image(s)` button to upload an image. Select your image - Discord 
 
 ## Running the Code
 
-Once you have done all of this, you can run the code. Open your terminal within the project's root directory, then use `npm ci` to install the dependencies, and `npm start` to launch the code.
+Once you have done all of this, you can run the code. Open your terminal within the project's root directory, then use `npm ci` to install the dependencies, `npm run build` to compile the TypeScript, and `npm start` to launch the code.
 
 Enjoy your new toy!
 
