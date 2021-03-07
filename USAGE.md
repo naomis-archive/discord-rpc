@@ -8,17 +8,20 @@ You will also need to have `node.js` and `npm` installed and available on your m
 
 Log in to the [Discord Developer Portal](https://discord.com/developers/) and select `Applications` in the side-bar. If you have an existing application (such as a bot), you may use that - otherwise, create an application.
 
-> NOTE: Your application name will appear in the Rich Presence.
+> NOTE: Your application name will appear as the first line of text in the rich presence.
 
-Copy the `Client ID` for the application and pass that in to the `client.login` call on line 25 of `src/index.ts` - replacing my `"716707753090875473"` ID with yours.
+Copy the `Client ID` for the application and pass that to the `clientId` property for the `loginOptions` object in `src/index.ts` - you will replace the existing client ID there.
 
 ## Modifying your Presence
 
-You can tweak what your RPC says/does by changing these values in `src/index.ts`.
+The appearance of your Discord Rich Presence is defined in the `src/data/activity.ts` file. Each key changes a specific value:
 
-- `details` (line 9): This is the text that appears in your presence.
-- `buttons` (line 12): You can have _two_ buttons. The `label` is the text that appears on the RPC, and the `url` is the link that opens when someone clicks your button.
-- image (line 7 + 8): The `largeImageKey` is the **name** or **key** of the asset you upload to your application (see below), and the `largeImageText` is the text that appears when someone hovers over the image.
+- `largeImageKey`: This is the key for the large image asset (see `Uploading an Asset` below).
+- `largeImageText`: This is the hover text that appears on the large image.
+- `details`: This is the second line of text that appears in the rich presence.
+- `startTimestamp`: Leave this as `Date.now()` to automatically show how long your presence application has been running.
+- `state`: This is the third line of text that appears in the rich presence.
+- `buttons`: This is an array of two objects. Each object defines one of the buttons that appears in your rich presence. The `label` is the text that appears in the button, and the `url` is the website the button will take a user to on click.
 
 > NOTE: You cannot click on your own buttons, so do not be alarmed if they appear non-functioning.
 
@@ -26,7 +29,7 @@ You can tweak what your RPC says/does by changing these values in `src/index.ts`
 
 Navigate to your application's page on the Developer Portal again. Select `Rich Presence` from the sidebar. You should see a section titled `Rich Presence Assets`.
 
-Click the `Add Image(s)` button to upload an image. Select your image - Discord will upload it and you will be able to set the name of that asset. **This name is what you give to the `large_image` value in the code.** Select `Save Changes` when you are done.
+Click the `Add Image(s)` button to upload an image. Select your image - Discord will upload it and you will be able to set the name of that asset. **This name is what you give to the `largeImageKey` value in the code.** Select `Save Changes` when you are done.
 
 > NOTE: The asset can take up to a couple of hours to be live and available in your RPC. If you refresh the developer portal page and the asset is not there, it has not finished processing yet.
 
