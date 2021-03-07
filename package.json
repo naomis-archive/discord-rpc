@@ -12,7 +12,7 @@
     "prebuild": "rm -rf ./prod",
     "build": "tsc",
     "lint": "eslint src",
-    "start": "node ./prod/index.js",
+    "start": "forever start ./prod/index.js",
     "test": "ts-mocha -u tdd ./src/test/*.spec.ts"
   },
   "repository": {
@@ -30,7 +30,8 @@
     "npm": "^7.6.0"
   },
   "dependencies": {
-    "discord-rpc": "^3.2.0"
+    "discord-rpc": "^3.2.0",
+    "forever": "^3.0.4"
   },
   "devDependencies": {
     "@types/chai": "^4.2.15",
