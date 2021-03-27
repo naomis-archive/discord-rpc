@@ -1,6 +1,6 @@
 {
   "name": "nhcarrigan-discord-rpc",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A TypeScript powered tool for creating a custom Discord Rich Presence",
   "main": "index.js",
   "keywords": [
