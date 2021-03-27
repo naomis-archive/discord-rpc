@@ -2,6 +2,12 @@
 
 A quick experiment with the Discord Rich Presence Client
 
+![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/discord-rpc)
+![](https://img.shields.io/codeclimate/issues/nhcarrigan/discord-rpc)
+![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/discord-rpc)
+![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/discord-rpc)
+![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/discord-rpc)
+
 ## Live Version
 
 You can view this by looking at my presence on Discord!
@@ -28,7 +34,7 @@ Copyright (C) 2020 Nicholas Carrigan
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
 The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 
