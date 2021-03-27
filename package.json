@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "discord-rpc": "^3.2.0",
-    "forever": "^3.0.4"
+    "forever": "^3.0.4",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "@types/chai": "^4.2.15",
