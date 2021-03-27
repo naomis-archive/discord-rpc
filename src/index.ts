@@ -8,7 +8,7 @@ export const loginOptions: RPCLoginOptions = { clientId: "716707753090875473" };
 
 export const client = new rpc.Client(clientOptions);
 
-() => {
+(() => {
   try {
     client.on("ready", () => {
       logHandler.log("debug", "Client has connected!");
@@ -23,4 +23,4 @@ export const client = new rpc.Client(clientOptions);
       JSON.stringify({ errorMessage: error.message, errorStack: error.stack })
     );
   }
-};
+})();
