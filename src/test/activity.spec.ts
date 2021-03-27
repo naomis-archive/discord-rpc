@@ -63,7 +63,7 @@ suite("Activity object values", () => {
   });
 
   test("should have correct startTimestamp", () => {
-    assert.approximately(activity.startTimestamp as number, Date.now(), 100);
+    assert.approximately(activity.startTimestamp as number, Date.now(), 1000);
   });
 
   test("should have correct state", () => {
