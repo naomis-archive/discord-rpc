@@ -2,15 +2,18 @@ import { ExtendedActivity } from "../interfaces/addButtons";
 
 export const activity: ExtendedActivity = {
   largeImageKey: "main",
-  largeImageText: "It's Becca!",
-  details: "Come hang out?",
+  largeImageText: "Wowie Zowie it's me!",
+  details: "Come hang out!",
   startTimestamp: Date.now(),
-  state: "I'm here!",
+  state: "Please?",
   buttons: [
-    { label: "Website", url: "https://www.nhcarrigan.com" },
     {
-      label: "Chat",
+      label: "Join Discord",
       url: "http://chat.nhcarrigan.com",
+    },
+    {
+      label: "Support Our Work",
+      url: "https://www.nhcarrigan.com/sponsor",
     },
   ],
 };

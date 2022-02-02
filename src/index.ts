@@ -4,7 +4,7 @@ import { logHandler } from "./utils/logHandler";
 
 export const clientOptions: RPCClientOptions = { transport: "ipc" };
 
-export const loginOptions: RPCLoginOptions = { clientId: "716707753090875473" };
+export const loginOptions: RPCLoginOptions = { clientId: "928673473834922086" };
 
 export const client = new rpc.Client(clientOptions);
 
