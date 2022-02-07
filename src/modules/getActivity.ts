@@ -1,11 +1,20 @@
+import { Presence } from "discord-rpc";
+
 import { activityStates } from "../config/activityStates";
 import { ActivityChoice } from "../interfaces/ActivityChoice";
-import { ExtendedActivity } from "../interfaces/addButtons";
 
+/**
+ * Module to receive the activity prompt choice from the CLI and return a proper
+ * Rich Presence Object.
+ *
+ * @param {ActivityChoice} activity The activity selected from the CLI.
+ * @param {number} timestamp The UNIX timestamp the process was started.
+ * @returns {Presence} An activity object to send to Discord.
+ */
 export const getActivity = (
   activity: ActivityChoice,
   timestamp: number
-): ExtendedActivity => {
+): Presence => {
   const baseActivity = {
     largeImageKey: "main",
     largeImageText: "Wowie Zowie it's me!",

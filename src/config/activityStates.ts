@@ -1,5 +1,8 @@
 import { ActivityChoice } from "../interfaces/ActivityChoice";
 
+/**
+ * Used to map the choices from the prompt to the states for the presence.
+ */
 export const activityStates: { [Property in ActivityChoice]: string } = {
   "Client Work": "Focusing on work",
   Meeting: "In a meeting!",
