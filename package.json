@@ -31,9 +31,7 @@
   },
   "dependencies": {
     "discord-rpc": "^3.2.0",
-    "forever": "^3.0.4",
     "inquirer": "^8.2.0",
-    "pm2": "^5.1.2",
     "winston": "^3.3.3"
   },
   "devDependencies": {
@@ -48,17 +46,9 @@
     "eslint": "7.26.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "3.4.0",
-    "husky": "6.0.0",
-    "lint-staged": "11.0.0",
     "mocha": "8.4.0",
     "prettier": "2.3.0",
     "ts-mocha": "8.0.0",
     "typescript": "4.2.4"
-  },
-  "lint-staged": {
-    "*.ts": [
-      "eslint --fix",
-      "prettier --write"
-    ]
   }
 }
