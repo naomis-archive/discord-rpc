@@ -1,14 +1,13 @@
 import rpc, { RPCClientOptions, RPCLoginOptions } from "discord-rpc";
 import { prompt } from "inquirer";
+
 import { ActivityChoice } from "./interfaces/ActivityChoice";
 import { getActivity } from "./modules/getActivity";
 import { logHandler } from "./utils/logHandler";
 
-export const clientOptions: RPCClientOptions = { transport: "ipc" };
-
-export const loginOptions: RPCLoginOptions = { clientId: "928673473834922086" };
-
-export const client = new rpc.Client(clientOptions);
+const clientOptions: RPCClientOptions = { transport: "ipc" };
+const loginOptions: RPCLoginOptions = { clientId: "928673473834922086" };
+const client = new rpc.Client(clientOptions);
 
 (() => {
   try {
@@ -52,3 +51,5 @@ export const client = new rpc.Client(clientOptions);
     );
   }
 })();
+
+export { clientOptions, loginOptions, client };
