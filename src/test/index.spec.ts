@@ -7,6 +7,6 @@ suite("RPC Client", () => {
   });
 
   test("should use correct Discord application ID", () => {
-    assert.equal(loginOptions.clientId, "716707753090875473");
+    assert.equal(loginOptions.clientId, "928673473834922086");
   });
 });
