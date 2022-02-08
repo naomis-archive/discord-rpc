@@ -1,6 +1,7 @@
 import rpc, { RPCClientOptions, RPCLoginOptions } from "discord-rpc";
 import { prompt } from "inquirer";
 
+import { activityChoices } from "./config/activityChoices";
 import { ActivityChoice } from "./interfaces/ActivityChoice";
 import { getActivity } from "./modules/getActivity";
 import { logHandler } from "./utils/logHandler";
@@ -22,15 +23,7 @@ const client = new rpc.Client(clientOptions);
           name: "Activity",
           message: "What is Naomi currently doing?",
           type: "list",
-          choices: [
-            "Client Work",
-            "Meeting",
-            "Personal Work",
-            "Gaming",
-            "AFK",
-            "Nothing",
-            "Signing Off",
-          ],
+          choices: activityChoices,
         });
 
         await client.setActivity(
