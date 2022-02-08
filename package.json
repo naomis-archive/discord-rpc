@@ -30,13 +30,13 @@
     "npm": "^7.6.0"
   },
   "dependencies": {
-    "discord-rpc": "^3.2.0",
+    "discord-rpc": "^4.0.0",
     "inquirer": "^8.2.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
     "@types/chai": "4.3.0",
-    "@types/discord-rpc": "3.0.6",
+    "@types/discord-rpc": "4.0.0",
     "@types/inquirer": "8.2.0",
     "@types/mocha": "8.2.3",
     "@types/node": "16.11.22",
