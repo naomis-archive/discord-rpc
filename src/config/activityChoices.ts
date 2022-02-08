@@ -5,6 +5,7 @@ import { ActivityChoice } from "../interfaces/ActivityChoice";
  * switching activity.
  */
 export const activityChoices: ActivityChoice[] = [
+  "Notifications",
   "Client Work",
   "Meeting",
   "Personal Work",
