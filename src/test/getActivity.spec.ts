@@ -1,6 +1,7 @@
 import { assert } from "chai";
 
 import { activityChoices } from "../config/activityChoices";
+import { activityImages } from "../config/activityImages";
 import { activityStates } from "../config/activityStates";
 import { getActivity } from "../modules/getActivity";
 
@@ -33,6 +34,7 @@ suite("Get Activity module", () => {
       assert.deepEqual(result, {
         ...baseActivity,
         state: activityStates[activity],
+        largeImageKey: activityImages[activity],
       });
     });
   }

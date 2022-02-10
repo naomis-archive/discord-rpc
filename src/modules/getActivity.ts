@@ -1,5 +1,6 @@
 import { Presence } from "discord-rpc";
 
+import { activityImages } from "../config/activityImages";
 import { activityStates } from "../config/activityStates";
 import { ActivityChoice } from "../interfaces/ActivityChoice";
 
@@ -34,6 +35,7 @@ export const getActivity = (
   };
 
   baseActivity.state = activityStates[activity];
+  baseActivity.largeImageKey = activityImages[activity];
 
   if (activity === "Signing Off") {
     setTimeout(() => process.exit(0), 15000);
