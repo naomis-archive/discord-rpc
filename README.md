@@ -2,19 +2,9 @@
 
 A quick experiment with the Discord Rich Presence Client
 
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/discord-rpc)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/discord-rpc)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/discord-rpc)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/discord-rpc)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/discord-rpc)
-
 ## Live Version
 
-You can view this by looking at my presence on Discord!
-
-## Creating Your Own
-
-To see how to set up your own RPC, view our [usage instructions](./USAGE.md).
+You can view this by looking at my presence on Discord! Want to [run it yourself?](https://docs.nhcarrigan.com/#/discord-rpc/usage)
 
 ## Feedback and Bugs
 
@@ -40,8 +30,4 @@ The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 
 ## Contact
 
-We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
-
-## Special Credit
-
-Many thanks to [advaith](https://github.com/advaith1) for providing the [sample code](https://discord.com/channels/613425648685547541/613425918748131338/795263592052162560) used to make this work.
+We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via `contact@nhcarrigan.com`.
