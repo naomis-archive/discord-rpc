@@ -6,4 +6,5 @@ export type ActivityChoice =
   | "Gaming"
   | "AFK"
   | "Nothing"
+  | "Reading"
   | "Signing Off";

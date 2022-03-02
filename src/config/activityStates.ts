@@ -11,5 +11,6 @@ export const activityStates: { [Property in ActivityChoice]: string } = {
   Gaming: "Lost in a game",
   AFK: "Not at her computer",
   Nothing: "Taking a break",
+  Reading: "Captivated by a book",
   "Signing Off": "Signing off. Good night!",
 };

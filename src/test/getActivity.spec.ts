@@ -9,6 +9,8 @@ const timestamp = Date.now();
 const baseActivity = {
   largeImageKey: "main",
   largeImageText: "Wowie Zowie it's me!",
+  smallImageKey: "main",
+  smallImageText: "Hello there!",
   details: "Naomi is currently...",
   startTimestamp: timestamp,
   state: "",
