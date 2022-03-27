@@ -15,7 +15,7 @@ const client = new rpc.Client(clientOptions);
     client.on("ready", async () => {
       const timestamp = Date.now();
       logHandler.log("debug", "Client has connected!");
-      logHandler.log("silly", `Authenticated as ${client.user.username}`);
+      logHandler.log("silly", `Authenticated as ${client.user?.username}`);
 
       // eslint-disable-next-line no-constant-condition
       while (true) {
