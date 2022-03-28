@@ -10,5 +10,6 @@ export const activityImages: { [Property in ActivityChoice]: string } = {
   Nothing: "nothing",
   Reading: "reading",
   Streaming: "streaming",
+  Socialising: "social",
   "Signing Off": "signing-off",
 };

@@ -8,4 +8,5 @@ export type ActivityChoice =
   | "Nothing"
   | "Reading"
   | "Streaming"
+  | "Socialising"
   | "Signing Off";
