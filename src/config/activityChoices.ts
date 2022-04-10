@@ -9,6 +9,7 @@ export const activityChoices: ActivityChoice[] = [
   "Client Work",
   "Meeting",
   "Personal Work",
+  "Game Dev",
   "Gaming",
   "AFK",
   "Nothing",
