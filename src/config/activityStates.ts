@@ -8,6 +8,7 @@ export const activityStates: { [Property in ActivityChoice]: string } = {
   "Client Work": "Focusing on work",
   Meeting: "In a meeting!",
   "Personal Work": "Working on side projects",
+  "Game Dev": "Building her next game",
   Gaming: "Lost in a game",
   AFK: "Not at her computer",
   Nothing: "Taking a break",
