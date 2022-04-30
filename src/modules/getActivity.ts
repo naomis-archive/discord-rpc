@@ -31,7 +31,7 @@ export const getActivity = (
       },
       {
         label: "Support Our Work",
-        url: "https://www.nhcarrigan.com/sponsor",
+        url: "https://donate.nhcarrigan.com",
       },
     ],
   };
