@@ -13,4 +13,5 @@ export const activityImages: { [Property in ActivityChoice]: string } = {
   Streaming: "streaming",
   Socialising: "social",
   "Signing Off": "signing-off",
+  Sleeping: "sleeping",
 };

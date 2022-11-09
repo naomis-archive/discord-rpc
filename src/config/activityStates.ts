@@ -16,4 +16,5 @@ export const activityStates: { [Property in ActivityChoice]: string } = {
   Streaming: "Streaming on Twitch!",
   Socialising: "Attending a social event",
   "Signing Off": "Signing off. Good night!",
+  Sleeping: "Taking a quick nap!",
 };

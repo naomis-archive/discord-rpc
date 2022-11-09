@@ -17,4 +17,5 @@ export const activityChoices: ActivityChoice[] = [
   "Streaming",
   "Socialising",
   "Signing Off",
+  "Sleeping",
 ];
