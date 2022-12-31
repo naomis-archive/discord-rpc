@@ -4,6 +4,7 @@ export type ActivityChoice =
   | "Meeting"
   | "Personal Work"
   | "Gaming"
+  | "Exercising"
   | "AFK"
   | "Nothing"
   | "Reading"

@@ -7,6 +7,7 @@ export const activityImages: { [Property in ActivityChoice]: string } = {
   "Personal Work": "personal",
   "Game Dev": "game-dev",
   Gaming: "gaming",
+  Exercising: "exercising",
   AFK: "afk",
   Nothing: "nothing",
   Reading: "reading",
