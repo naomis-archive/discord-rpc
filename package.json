@@ -37,7 +37,7 @@
   "devDependencies": {
     "@types/chai": "4.3.4",
     "@types/discord-rpc": "4.0.3",
-    "@types/inquirer": "8.2.5",
+    "@types/inquirer": "8.2.6",
     "@types/mocha": "10.0.1",
     "@types/node": "18.13.0",
     "@typescript-eslint/eslint-plugin": "5.52.0",
