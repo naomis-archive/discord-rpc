@@ -30,14 +30,14 @@
     "npm": "9.6.2"
   },
   "dependencies": {
-    "discord-rpc": "4.0.0",
-    "inquirer": "8.2.0",
-    "winston": "3.3.3"
+    "discord-rpc": "4.0.1",
+    "inquirer": "9.1.4",
+    "winston": "3.8.2"
   },
   "devDependencies": {
     "@types/chai": "4.3.4",
     "@types/discord-rpc": "4.0.3",
-    "@types/inquirer": "8.2.6",
+    "@types/inquirer": "9.0.3",
     "@types/mocha": "10.0.1",
     "@types/node": "18.15.3",
     "@typescript-eslint/eslint-plugin": "5.55.0",
@@ -46,7 +46,7 @@
     "eslint": "8.36.0",
     "eslint-config-prettier": "8.7.0",
     "eslint-plugin-import": "2.27.5",
-    "eslint-plugin-jsdoc": "40.0.2",
+    "eslint-plugin-jsdoc": "40.0.3",
     "eslint-plugin-prettier": "4.2.1",
     "mocha": "10.2.0",
     "prettier": "2.8.4",
