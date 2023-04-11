@@ -1,9 +1,9 @@
 import { assert } from "chai";
 
-import { activityChoices } from "../config/activityChoices";
-import { activityImages } from "../config/activityImages";
-import { activityStates } from "../config/activityStates";
-import { getActivity } from "../modules/getActivity";
+import { activityChoices } from "../src/config/activityChoices";
+import { activityImages } from "../src/config/activityImages";
+import { activityStates } from "../src/config/activityStates";
+import { getActivity } from "../src/modules/getActivity";
 
 const timestamp = Date.now();
 const baseActivity = {

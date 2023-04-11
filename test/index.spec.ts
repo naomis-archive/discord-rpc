@@ -1,6 +1,6 @@
 import { assert } from "chai";
 
-import { clientOptions, loginOptions } from "../index";
+import { clientOptions, loginOptions } from "../src/index";
 
 suite("RPC Client", () => {
   test("should use IPC transport", () => {
