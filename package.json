@@ -35,7 +35,7 @@
     "winston": "3.8.2"
   },
   "devDependencies": {
-    "@types/chai": "4.3.4",
+    "@types/chai": "4.3.5",
     "@types/discord-rpc": "4.0.4",
     "@types/inquirer": "8.2.6",
     "@types/mocha": "10.0.1",
