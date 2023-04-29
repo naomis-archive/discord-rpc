@@ -16,9 +16,9 @@ const client = new rpc.Client(clientOptions);
       const timestamp = Date.now();
       logHandler.log("debug", "Client has connected!");
       logHandler.log("silly", `Authenticated as ${client.user?.username}`);
+      let shutdown = false;
 
-      // eslint-disable-next-line no-constant-condition
-      while (true) {
+      while (!shutdown) {
         const activityChoice: { Activity: ActivityChoice } = await prompt({
           name: "Activity",
           message: "What is Naomi currently doing?",
@@ -30,6 +30,10 @@ const client = new rpc.Client(clientOptions);
           getActivity(activityChoice.Activity, timestamp),
           process.pid
         );
+
+        if (activityChoice.Activity === "Signing Off") {
+          shutdown = true;
+        }
 
         logHandler.log("info", `Activity set to ${activityChoice.Activity}`);
       }
